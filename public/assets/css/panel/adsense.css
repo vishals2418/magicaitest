@@ -1,0 +1,39 @@
+.cell-box {
+    border-radius: 5px;
+    padding: 3px 10px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.adsense-deactivated {
+    background: #FFE2E5;
+    color: #ff0000;
+    font-size: 12px;
+}
+
+.adsense-activated {
+    background: rgba(0, 188, 126, 0.1);
+    color: #00bc7e;
+    font-size: 12px;
+}
+
+.edit-action-button:hover,
+.edit-action-button:focus {
+    background: #FFF4DE;
+    color: #FFA800;
+}
+
+.table-action-buttons {
+    background: #f5f9fc;
+    border: 1px solid white;
+    border-radius: 0.42rem;
+    line-height: 2.2;
+    font-size: 14px;
+    color: #67748E;
+    width: 33px;
+    height: 33px;
+    text-align: center;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 0.15s;
+}
